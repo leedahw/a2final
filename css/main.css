@@ -1,0 +1,423 @@
+.fakeElement{ /*need this to show all styles*/
+}
+
+#header {
+    z-index: 1;
+    position: static;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    list-style-type: none;
+    margin:0px;
+}
+
+
+
+#footer{
+    z-index: 1;
+    position:static;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left:1rem;
+
+}
+
+
+
+
+body,html{
+    max-width:100%;
+    font-family: 'Mulish', sans-serif;
+    font-size:16px;
+}
+
+body {    
+    background-image: url("../imgs/map.png");
+    background-color:grey;
+    background-size:cover;
+    background-repeat: repeat-y;
+    position:absolute;
+    margin: 0px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    margin-top:1rem;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+h1 {
+    color:black;
+    font-size: 1.5em; 
+    font-weight: 900;
+    padding-left:2rem;
+
+}
+
+h2{
+    color:black;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-left:2rem; 
+}
+
+h3{
+    font-size:1.5em;
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+p{
+    margin: 0%;
+}
+nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+    margin:0px; /*do not erase*/   
+
+}
+
+#headerNav{
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom:2%;
+
+}
+
+#nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    padding-inline-start: 0%;
+    margin:0px; /*do not erase*/   
+
+}
+
+
+img.articleimg{
+    width:100%;
+    height: auto;
+    margin:auto;
+    margin-top:1rem;
+}
+
+#articleTitle{
+    padding-left: 0;
+}
+
+
+
+#articlenav{
+    width:33%;
+    text-align: center;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a#viewContact{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:1rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    background-color: white;
+}
+
+
+section.article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:flex-start;
+    width:100%;
+    font-weight: 400;
+    margin-left: 1%;
+    margin-right:1%;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
+
+section.#article{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    background-color: white;
+}
+
+section#singleArticle{
+    width:90%;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.title {
+    background-color:white;
+    padding-top: 2rem;
+    padding-bottom:4rem;
+    
+}
+
+.table {
+    width:50vw;
+
+}
+
+section#articleTop{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#addArticle{
+    padding-right:2rem;
+}
+
+.label{
+    font-weight:700;
+}
+
+.articleHeading{
+    text-transform:capitalize;
+}
+
+#fullArticles{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+#categoryArticles {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+}
+
+#techHeading,#industryHeading,#careerHeading{
+
+    margin-top:0%;
+    padding-left: 0%;
+}
+
+#techArticle,#industryArticle,#careerArticle{
+    border: solid grey;
+    border-width: 2px;
+    width:33%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+a:link{
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    color:black;
+}
+
+.externalLink{padding-left:2rem;}
+
+a:visited{
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-weight: 300;
+    text-decoration: none;
+    color:blue;
+}
+
+section.featuredArticle {
+    position: relative;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+    font-size: 1.25em;
+    background-color: white;
+    background-image:50%;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    margin-bottom: 3rem;
+}
+
+#message{
+    padding-left: 2rem;
+}
+
+p#featuredArticleDetail {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+#featuredimg {
+    width: 50%;
+}
+
+#featuredArticleHeading {
+    margin-top:0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#articleHeader{
+    margin:0%;
+    padding-bottom:0;
+}
+
+#featuredArticle{
+    font-weight: 400;
+    padding-right: 0px;
+}
+ p#featuredArticle, a#featuredLink, h3#featuredArticleHeading{
+     padding-left: 2rem;
+     padding-right: 2rem;
+}
+ 
+#featuredLink {
+    overflow:auto;
+}
+
+
+#techLabel,#careerLabel,#industryLabel{
+    font-weight: 700;
+}
+
+#techAuthor,#techLabel{
+    background-color: black;
+    color:white;
+
+}
+
+#industryAuthor,#industryLabel{
+    background-color: white;
+}
+
+
+#careerAuthor,#careerLabel{
+    background-color: purple;
+    color: white;
+}
+
+#aboutText{
+    margin-left:2rem;
+    margin-bottom:1rem;
+}
+
+#text {
+    padding:1rem;
+}
+
+.IndivArticle{
+    background-color:white; 
+    margin-bottom: 2rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#articleDetails {
+    margin-left:10%;
+}
+
+iframe {
+    margin-left: 2rem;
+}
+
+@media (max-width:540px)  {
+/* smartphones, Android phones, landscape iPhone */ 
+
+body{
+    justify-content: center;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: .6em;
+    font-weight: 700;
+    margin-top: 40px;;
+}
+
+section.article {
+    margin:0;
+}
+
+.indivArticle{
+    width:95%;
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+section.featuredArticle {
+    height:auto;
+}
+
+#techArticle,#industryArticle,#careerArticle{
+    display:flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    width:100%;
+    margin-top:2rem;
+    margin-bottom:5%;
+
+}
+
+#fullArticles {
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#articleDetails {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+section#header {
+    height:50%;
+}
+
+}
