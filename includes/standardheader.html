@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./css/footerHeader2.css" />
+    <link rel= "main.css" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' href='./favicon.ico' type='image/x-icon'/ >
+    <link rel='icon' href='./favicon.ico' type='image/x-icon'/>
     <link rel="stylesheet" href="./css/main.css" />
     <head></head>
     <title>Standard Header</title>
 <body>
-<header>
+<header id="header">
+    <div class="flipCard">
+        <div class="flipCardInner">
+            <div class="flipCardFront">
+                <a id="homepage" href = "homepage.php">
+                <img id="logo" src = "./articles/img/logo.png" alt = "IMM NEWS NETWORK LOGO"></a>
+            </div>
+            <div class="flipCardBack">
+                <a id="homepage" href = "homepage.php">
+                <h4>IMM News Network<br/>Home Page</h4></a>
+            </div>
+        </div>
+    </div>
+    <br/>
     <nav>
-        <li><a href = "homepage.php">
-        <img src = "./articles/img/logo.png" alt = "IMM NEWS NETWORK LOGO" width = 100p></a></li>
         <li id="headerNav"><a href = "about.php">ABOUT</a></li>
         <li id="headerNav"><a href = "contact-form.php">CONTACT</a></li>
         <li id="headerNav"><a href = "login.php">LOGIN</a></li>
         <li id="headerNav"><a href = "logout.php">LOGOUT</a></li>
     </nav>
 <div id="contrast">
-<button id ="contrastbutton">CONTRAST</button>
+    <button id ="contrastbutton">CONTRAST</button>
 </div>
-</header>
-<script src= "js/contrast.js"></script>
+    </header>
+    <script src= "./js/contrast.js"></script>
 </body>
 </html>
