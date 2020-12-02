@@ -159,7 +159,7 @@ section.article {
 }
 
 
-section.#article{
+section#article{
     display:flex;
     justify-content: center;
     flex-direction: column;
