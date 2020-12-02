@@ -59,15 +59,12 @@ img{
 }
 
 h1 {
-    color:black;
     font-size: 1.5em; 
     font-weight: 900;
     padding-left:2rem;
-
 }
 
 h2{
-    color:black;
     font-weight: 700;
     font-size: 1.5em;
     padding-left:2rem; 
@@ -162,7 +159,7 @@ section.article {
 }
 
 
-section.#article{
+section#article{
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -246,7 +243,6 @@ a:link{
     font-size: 1em;
     font-weight: 700;
     text-decoration: none;
-    color:black;
 }
 
 .externalLink{padding-left:2rem;}
@@ -254,7 +250,6 @@ a:link{
 a:visited{
     font-weight: 300;
     text-decoration: none;
-    color: black;
 }
 
 a:hover{
@@ -363,6 +358,49 @@ iframe {
     margin-left: 2rem;
 }
 
+.flipCard {
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+  
+  }
+    
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+    
+  
+  .flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+    
+  
+  .flipCardFront, .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+    
+  .flipCardFront {
+    background-color: white;
+    color: black;
+  }
+    
+  .flipCardBack {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
 @media (max-width:540px)  {
 /* smartphones, Android phones, landscape iPhone */ 
 
@@ -418,6 +456,22 @@ section.featuredArticle {
 
 section#header {
     height:50%;
+}
+
+.flipCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.flipcardFront,.flipCardBack {
+    height:50%;
+}
+
+#logo {
+    margin-top: 30px;
+    width:50%;
 }
 
 }
